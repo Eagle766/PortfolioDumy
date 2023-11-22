@@ -1,0 +1,278 @@
+/* Top Header */
+@media only screen and (max-width: 1366px) {
+     .LogoNamediv{
+        width:22%;
+        border:none;
+    }
+        .logo{
+            width:6%;
+            border: none;
+            height: 80px;
+          
+           
+        }
+       
+
+        .LogoImage{
+            height:80%;
+            width:80%;
+            border-radius: 50%;
+            margin-left: 20%;
+            margin-top: 10px;
+        }
+        
+        
+        .LogoName{
+            margin-top:25px;
+            font-size: 1.7vw;
+            font-style: italic;
+            color:white
+        
+        }
+        .namelink{
+            text-decoration: none;
+        }
+
+        nav{
+            width:71%;
+            border:1px solid;
+        }
+        
+        .nav_link{
+            float:right;
+            margin-right: 5%;
+            margin-top: 20px;
+            font-size:1.7vw;
+            text-decoration: none;
+            color:white;
+           
+        }
+        .nav_link1{
+            float:right;
+            margin-right: 5%;
+            margin-top: 20px;
+            font-size:1.7vw;
+            text-decoration: none;
+            color:white;
+           
+        }
+
+
+        /* Main Div */
+        .SocialLink{
+            margin-top: 120px;
+            height:300px;
+            width:12%;
+            border:none;
+        }
+        
+        .icons{
+            margin-top:20px;
+            color: white;
+            margin-left:7%;
+        }
+        
+        
+        
+        .Description{
+            margin-top: 120px;
+            height:400px;
+            width:87%;
+            border:none;
+         
+        
+        }
+        .mainHeading{
+            color:white;
+            font-style: italic;
+            text-align: center;
+            font-size: 3vw;
+           
+        }
+        .Intro{
+            color:white;
+            text-align: center;
+            font-size: 2vw;
+        
+        }
+        
+        .btn1{
+            width:13%;
+            height:35px;
+            border-radius:10px;
+            background-color: #ff004f;
+            color:white;
+            border: none;
+            outline: none;
+        }
+
+        .nav_link:hover{
+            color:#ff004f;
+            font-size: 30px;
+        }
+        
+        .nav_link1:hover{
+            font-size: 30px;
+        }
+        .icons:hover{
+            color:#ff004f;
+            
+         }
+        
+    }
+
+    @media only screen and (max-width:650px) {
+        
+     .LogoNamediv{
+            width:84%;
+            border: 1px solid;
+          
+        }
+        .logo{
+           
+            width:14%;
+            border: 1px solid;
+            height: 80px;
+           
+        }
+        nav{
+            width:100%;
+            border:1px solid;
+        }
+       
+           
+           
+    
+            .LogoImage{
+                height:50px;
+                width:50px;
+                border-radius: 50%;
+                margin-left: 20%;
+                margin-top: 10px;
+            }
+            
+            
+            .LogoName{
+                margin-top:25px;
+                font-size: 20px;
+                font-style: italic;
+                color:white
+                
+              }
+    
+           
+            
+            .nav_link{
+                float: right;
+                margin-right:5%;
+                margin-top: 20px;
+                font-size:20px;
+                text-decoration: none;
+                color:white;
+                
+            }
+            .nav_link1{
+                float: right;
+                margin-right:13%;
+                margin-top: 20px;
+                font-size:20px;
+                text-decoration: none;
+                color:white;
+                
+            }
+            .nav_link:hover{
+                color:#ff004f;
+                font-size: 25px;
+            }
+            
+            .nav_link1:hover{
+                color:#ff004f;
+                font-size: 25px;
+            }
+
+
+            /* Main Div */
+            .SocialLink{
+                margin-top: 120px;
+                height:300px;
+                width:12%;
+                border:none;
+            }
+            
+            .icons{
+                margin-top:20px;
+                color: white;
+                margin-left:7%;
+            }
+            
+            
+            
+            .Description{
+                margin-top: 120px;
+                height:400px;
+                width:87%;
+                border:none;
+             
+            
+            }
+            .mainHeading{
+                color:white;
+                font-style: italic;
+                text-align: center;
+                font-size:25px;
+               
+            }
+            .Intro{
+                color:white;
+                text-align: center;
+                font-size: 16px;
+            
+            }
+            
+            .btn1{
+                width:15%;
+                height:35px;
+                border-radius:10px;
+                background-color: #ff004f;
+                color:white;
+                border: none;
+                outline: none;
+           }
+         .icons:hover{
+            color:#ff004f;
+         }
+        
+
+        }
+
+.Navbar1{
+    display: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#080808;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+.span1{
+    color:#ff004f;
+}
+
+/* End Header */
+
+
+
+/* start Main */
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+
+    border:1px solid;
+    height:560px;
+    background-color: #080808;
+}
+
